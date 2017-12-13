@@ -134,7 +134,7 @@ background-repeat:no-repeat;padding-top:8px;padding-bottom:8px;text-align:center
 
 .theme-dark .friends-table .messages .message-group h2 strong,.theme-dark .messages-wrapper .messages .message-group h2 strong{font-size:15px;}
 
-div.avatar-large{border-radius:5px;}
+div.avatar-small{border-radius:5px;}
 
 .avatar-small{border-radius:3px;}
 
@@ -324,9 +324,9 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 #user-profile-modal .guilds .guild{color:#c1c1c1;margin:0 10px;transition:background 300ms;}
 
-#user-profile-modal .guilds .guild .avatar-large{box-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);}
+#user-profile-modal .guilds .guild .avatar-small{box-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);}
 
-#user-profile-modal .guilds .guild .avatar-large:empty{border-radius:15px!important;}
+#user-profile-modal .guilds .guild .avatar-small:empty{border-radius:15px!important;}
 
 #user-profile-modal .guilds .guild:hover{border-radius:5px;color:#fff;}
 
@@ -453,9 +453,9 @@ top:80px;left:115px;width:150px;display:flex!important;}
 
 #friends .friends-table .friends-row .friends-suggestion-inner{padding:20px;}
 
-#friends .friends-table .friends-row .friends-suggestion-inner .avatar-large{border-radius:5px;opacity:0.6;transition:opacity 500ms;}
+#friends .friends-table .friends-row .friends-suggestion-inner .avatar-small{border-radius:5px;opacity:0.6;transition:opacity 500ms;}
 
-#friends .friends-table .friends-row:hover .friends-suggestion-inner .avatar-large{opacity:0.8;}
+#friends .friends-table .friends-row:hover .friends-suggestion-inner .avatar-small{opacity:0.8;}
 
 #friends .friends-table .friends-row .friends-suggestion-inner .friends-suggestion-info .discord-tag .username{color:rgba(225, 225, 225, 0.6);width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color 500ms;}
 
@@ -917,7 +917,7 @@ textarea{background:transparent !important;}
 
 .theme-dark #friends .friends-header{border-bottom:1px #141416 solid !important;}
 
-.message-group .avatar-large{margin-top:0px;}
+.message-group .avatar-small{margin-top:0px;}
 
 .spinner-wandering-cubes .spinner-item{background-color:var(--main-color);border-radius:20px;}
 
@@ -1199,7 +1199,7 @@ code{background:#121213 !important;}
 
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header{border-bottom:1px solid #151515;}
 
-#user-profile-modal .guilds .avatar-large{background-color:var(--main-color);}
+#user-profile-modal .guilds .avatar-small{background-color:var(--main-color);}
 
 .guilds-wrapper .guilds .guild.selected .guild-inner{background:var(--main-color) !important;}
 
@@ -1642,7 +1642,7 @@ button.bd-customicon-settings{display:none;}
 
 .theme-dark #friends .friends-header{border-bottom:2px var(--main-color) solid !important;}
 
-#friends .friends-table .friends-row .friends-suggestion-inner .avatar-large{margin-right:20px;height:60px;width:60px;background-repeat:no-repeat;border-radius:3px;background-size:60px;}
+#friends .friends-table .friends-row .friends-suggestion-inner .avatar-small{margin-right:20px;height:60px;width:60px;background-repeat:no-repeat;border-radius:3px;background-size:60px;}
 
 #friends .friends-table .friends-row .friends-suggestion-inner{padding:15px;}
 
@@ -2396,7 +2396,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .emoji-picker .header { border-bottom: 2px solid var(--main-color);}
 
-.message-group .avatar-large[style*="172218388880293888"]:hover, .channel-members .member .avatar-small[style*="172218388880293888"]:hover {cursor: url("https://betterdocs.net/classic/assets/penis.cur"), auto !important;}
+.message-group .avatar-small[style*="172218388880293888"]:hover, .channel-members .member .avatar-small[style*="172218388880293888"]:hover {cursor: url("https://betterdocs.net/classic/assets/penis.cur"), auto !important;}
 
 .quote-msg {box-shadow: 0px 0px 6px -2px #000;}
 
@@ -2724,7 +2724,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .message-group .avatar-large[style*="172218388880293888"] {background-image:url(https://i.imgur.com/KUFVy78.png) !important;}
 
-.message-group:hover .avatar-large[style*="172218388880293888"]{background-image:url(https://i.imgur.com/tLfxGiD.gif) !important;}
+.message-group:hover .avatar-small[style*="172218388880293888"]{background-image:url(https://i.imgur.com/tLfxGiD.gif) !important;}
 
 *[style*="172218388880293888"] {background-image:url(https://i.imgur.com/tLfxGiD.gif) !important;}
 
@@ -2904,7 +2904,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch{background: var(--hover-color);}
 
-.bd-blue #instant-invite-modal .copy, .bd-blue #oauth2-authorize .scope-bot .avatar-large, .bd-blue #overlay-wrapper .overlay .guild-panel .guild-panel-header, .bd-blue #settings-roles .roles li.selected:before, .bd-blue #unsupported-browser li:hover .btn, .bd-blue #user-profile-modal .btn, .bd-blue #user-profile-modal .guilds .avatar-large, .bd-blue .avatar-uploader-inner, .bd-blue .btn-filled, .bd-blue .button, .bd-blue .change-log .changelog-button .cta, .bd-blue .change-log .changelog-fixed, .bd-blue .channel-members .invite-btn, .bd-blue .channel-textarea-guard button, .bd-blue .chat .new-messages-bar:hover, .bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked+span, .bd-blue .detected-platform-accounts-modal .btn-group .btn-primary, .bd-blue .download-apps .platforms .platform.active .download-button, .bd-blue .emoji-picker .premium-promo .btn, .bd-blue .form .btn-primary, .bd-blue .guild-channels .channel-text.unread:not(.selected):not(.channel-muted).selected:before, .bd-blue .guild-channels .channel-voice-states li.speaking .avatar-small, .bd-blue .invite-banner, .bd-blue .invite-header .invite-guild-icon, .bd-blue .invite-mobile .link.purple, .bd-blue .invite-mobile .top, .bd-blue .invite-modal .avatar-xxxlarge, .bd-blue .mention:hover, .bd-blue .modal-new-user .steps-wrap .steps li.active, .bd-blue .modal-new-user .steps-wrap .steps li.on:before, .bd-blue .overlay-user-popout .user-popout-options .btn, .bd-blue .premium-payment-modal, .bd-blue .premium-payment-modal .premium-payment-button .spinner .spinner-item, .bd-blue .private-channel-recipients-invite .footer button, .bd-blue .private-channel-recipients-invite .footer button:disabled:hover, .bd-blue .progress .progress-bar, .bd-blue .react-datepicker .react-datepicker__day.react-datepicker__day--today:after, .bd-blue .react-datepicker .react-datepicker__day:hover, .bd-blue .region-select-flag, .bd-blue .region-select:hover button, .bd-blue .search-popout .date-picker .date-picker-hint .hint-value, .bd-blue .spinner-chasing-dots .ui-spinner-item, .bd-blue .spinner-wandering-cubes .ui-spinner-item, .bd-blue .tooltip, .bd-blue .ui-button.brand .ui-spinner-item, .bd-blue .ui-button.brand.filled, .bd-blue .ui-button.brand.filled:disabled, .bd-blue .ui-button.brand.outlined:active, .bd-blue .ui-scroller-wrap .scrollbar .thumb:after, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.selected, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item:active, .bd-blue .upload-modal, .bd-blue .verify-connected-account .btn, .bd-blue #oauth2-authorize .authorize-inner footer button.primary, .bd-blue #oauth2-authorize .authorize-inner header, .bd-blue .now-playing, .bd-blue .private-channel-recipients-invite .error-state.not-friends .btn, .bd-blue .ui-bot-tag, .bd-blue .ui-checkbox-wrapper .ui-checkbox.checked.inverted, .bd-blue .ui-region-flag.vip:after, .bd-blue .ui-slider .slider-bar-fill, .bd-blue .ui-switch-checkbox:checked+.ui-switch {background-color: var(--main-color) !important;}
+.bd-blue #instant-invite-modal .copy, .bd-blue #oauth2-authorize .scope-bot .avatar-small, .bd-blue #overlay-wrapper .overlay .guild-panel .guild-panel-header, .bd-blue #settings-roles .roles li.selected:before, .bd-blue #unsupported-browser li:hover .btn, .bd-blue #user-profile-modal .btn, .bd-blue #user-profile-modal .guilds .avatar-small, .bd-blue .avatar-uploader-inner, .bd-blue .btn-filled, .bd-blue .button, .bd-blue .change-log .changelog-button .cta, .bd-blue .change-log .changelog-fixed, .bd-blue .channel-members .invite-btn, .bd-blue .channel-textarea-guard button, .bd-blue .chat .new-messages-bar:hover, .bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked+span, .bd-blue .detected-platform-accounts-modal .btn-group .btn-primary, .bd-blue .download-apps .platforms .platform.active .download-button, .bd-blue .emoji-picker .premium-promo .btn, .bd-blue .form .btn-primary, .bd-blue .guild-channels .channel-text.unread:not(.selected):not(.channel-muted).selected:before, .bd-blue .guild-channels .channel-voice-states li.speaking .avatar-small, .bd-blue .invite-banner, .bd-blue .invite-header .invite-guild-icon, .bd-blue .invite-mobile .link.purple, .bd-blue .invite-mobile .top, .bd-blue .invite-modal .avatar-xxxlarge, .bd-blue .mention:hover, .bd-blue .modal-new-user .steps-wrap .steps li.active, .bd-blue .modal-new-user .steps-wrap .steps li.on:before, .bd-blue .overlay-user-popout .user-popout-options .btn, .bd-blue .premium-payment-modal, .bd-blue .premium-payment-modal .premium-payment-button .spinner .spinner-item, .bd-blue .private-channel-recipients-invite .footer button, .bd-blue .private-channel-recipients-invite .footer button:disabled:hover, .bd-blue .progress .progress-bar, .bd-blue .react-datepicker .react-datepicker__day.react-datepicker__day--today:after, .bd-blue .react-datepicker .react-datepicker__day:hover, .bd-blue .region-select-flag, .bd-blue .region-select:hover button, .bd-blue .search-popout .date-picker .date-picker-hint .hint-value, .bd-blue .spinner-chasing-dots .ui-spinner-item, .bd-blue .spinner-wandering-cubes .ui-spinner-item, .bd-blue .tooltip, .bd-blue .ui-button.brand .ui-spinner-item, .bd-blue .ui-button.brand.filled, .bd-blue .ui-button.brand.filled:disabled, .bd-blue .ui-button.brand.outlined:active, .bd-blue .ui-scroller-wrap .scrollbar .thumb:after, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.selected, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item:active, .bd-blue .upload-modal, .bd-blue .verify-connected-account .btn, .bd-blue #oauth2-authorize .authorize-inner footer button.primary, .bd-blue #oauth2-authorize .authorize-inner header, .bd-blue .now-playing, .bd-blue .private-channel-recipients-invite .error-state.not-friends .btn, .bd-blue .ui-bot-tag, .bd-blue .ui-checkbox-wrapper .ui-checkbox.checked.inverted, .bd-blue .ui-region-flag.vip:after, .bd-blue .ui-slider .slider-bar-fill, .bd-blue .ui-switch-checkbox:checked+.ui-switch {background-color: var(--main-color) !important;}
 
 .bd-blue #autocomplete-popout .empty h4, .bd-blue #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .bd-blue #instant-invite-modal .clipboard-input-inner input, .bd-blue #overlay-wrapper .overlay .guild-panel .btn-call, .bd-blue #rtc-debug-modal #users-section .user-list li.selected:before, .bd-blue #settings-roles .roles li.selected:before, .bd-blue .chat .has-more button, .bd-blue .chat .welcome-message h1, .bd-blue .color-brand, .bd-blue .create-guild-container .action.create .action-header, .bd-blue .create-guild-container .join-server .sample-link, .bd-blue .create-guild-container h5, .bd-blue .download-apps .footer a, .bd-blue .form .form-header, .bd-blue .form header, .bd-blue .guild-settings-modal-overview a, .bd-blue .invite-banner .instant-invite:not(.clipboard-input-copied) .clipboard-input-inner button, .bd-blue .invite-marketing .invite-marketing-button, .bd-blue .invite-marketing .invite-marketing-header, .bd-blue .markdown-modal .markdown-modal-header b, .bd-blue .mention, .bd-blue .mentioned .mention:hover, .bd-blue .message-group .edit-message .edit-operation>a, .bd-blue .messages-popout-wrap .has-more button, .bd-blue .modal-new-user h5, .bd-blue .modal-new-user>.steps .step-3 .instant-invite input, .bd-blue .notice.notice-brand .btn:hover, .bd-blue .onboarding-navigation .button, .bd-blue .onboarding-slide.mic-test .content.waiting .button, .bd-blue .popout-menu .popout-menu-item.invite, .bd-blue .premium-payment-modal .premium-payment-button, .bd-blue .reaction.reaction-me .reaction-count, .bd-blue .region-select button, .bd-blue .region-select-modal .region-select-modal-header, .bd-blue .tab-bar.TOP .tab-bar-item.selected, .bd-blue .theme-blurple .ui-button.primary.filled, .bd-blue .theme-blurple .ui-form-title.h5, .bd-blue .theme-blurple .ui-select .Select-menu-outer .Select-option, .bd-blue .theme-blurple .ui-select .Select-value-label, .bd-blue .theme-blurple .ui-text-input .input, .bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected, .bd-blue .theme-dark .reaction.reaction-me .reaction-count, .bd-blue .tutorial-popout .button-area .skip-tips a, .bd-blue .ui-bot-tag.invert, .bd-blue .ui-button.brand.ghost, .bd-blue .ui-button.brand.inverted, .bd-blue .ui-button.brand.link, .bd-blue .ui-button.brand.outlined, .bd-blue .ui-button.brand.outlined:disabled, .bd-blue .ui-new-terms-modal .title, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.brand, .bd-blue .user-settings-modal-account .discord-tag, .bd-blue .webkhook-modal-header.ui-form-title.h5 {color: var(--main-color) !important;}
 
@@ -3623,7 +3623,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .botTagInvert-gorWR_{background:var(--hover-color);color:#fff;}
 
-.guild div.avatar-large{border-radius:0px !important;}
+.guild div.avatar-small{border-radius:0px !important;}
 
 .message-group .edit-message .edit-container-outer .bf-toolbar div:not(.bf-arrow){padding: 11px 5px;}
 
