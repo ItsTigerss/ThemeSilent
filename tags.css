@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i);
-@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Tags.css");
+@import url("https://rawgit.com/ItsTigerss/ThemeTags/master/tags.css");
 
 :root {
     --version-content: "7.4";
-    --theme-name: "Quiet";
+    --theme-name: "Silent";
     --theme-letter: "Q";
 }
 
